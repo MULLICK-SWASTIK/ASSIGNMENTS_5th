@@ -1,0 +1,7 @@
+x = input("Enter input: ")
+print(type(x))
+print(x)
+x = int(input("Enter input: "))
+print(type(x))
+print(x)
+print(eval("2+5"))

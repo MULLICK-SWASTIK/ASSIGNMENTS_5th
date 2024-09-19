@@ -1,0 +1,1 @@
+# Files with '.exe' extension are executable in Windows and files with no extension are executable in Ubuntu/Linux system

@@ -1,0 +1,2 @@
+echo "Number of command line argument(s) provided: $#"
+echo "Complete list of argument(s): $@"

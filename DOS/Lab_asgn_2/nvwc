@@ -1,0 +1,5 @@
+echo "Filename : " dtcal
+echo "Linecount : " `wc -l < dtcal`
+echo "Wordcount : " `wc -w < dtcal`
+echo "Charcount : " `wc -c < dtcal`
+

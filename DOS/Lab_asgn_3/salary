@@ -1,0 +1,6 @@
+echo "Enter Ramesh's basic salary"
+read basic
+dall=`echo $basic \* 0.4 | bc`
+hall=`echo $basic \* 0.2 | bc`
+gross=`echo $basic + $hall + $dall | bc` 
+echo "Dearness allowance is $dall and house rent allowance is $hall. Gross salary is $gross."

@@ -1,0 +1,12 @@
+echo "Enter Cost price"
+read CP
+echo "Enter Selling price"
+read SP
+if [ $CP -gt $SP ]
+then
+loss=`expr $CP - $SP`
+echo "The seller incurred a loss of $loss"
+else
+profit=`expr $SP - $CP`
+echo "The seller incurred a profit of $profit"
+fi

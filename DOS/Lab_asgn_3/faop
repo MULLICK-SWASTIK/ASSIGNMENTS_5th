@@ -1,0 +1,9 @@
+echo "Enter first number"
+read a
+echo "Enter second number"
+read b
+c=`echo $a + $b | bc`
+echo "Addition: $c"
+echo "Subtraction: " `echo $a - $b | bc`
+echo "Multiplication: " `echo $a \* $b | bc`
+echo "Division: " `echo $a / $b | bc`

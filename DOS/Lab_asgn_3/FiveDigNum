@@ -1,0 +1,8 @@
+echo "Enter a five digit number"
+read num
+if [ $num -gt 0 ]
+then
+echo "$num is a positive number."
+else
+echo "Number is either 0 or negative number."
+fi

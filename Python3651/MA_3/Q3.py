@@ -13,3 +13,11 @@ if __name__ == "__main__":
     print(
         f"Summation of squares of even numbers from {min(n1, n2)} to {max(n1, n2)} is {summation}."
     )
+
+
+"""
+OUTPUT
+Enter first number: 1
+Enter second number: 50
+Summation of squares of even numbers from 1 to 50 is 22100.
+"""

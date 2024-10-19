@@ -22,3 +22,11 @@ if __name__ == "__main__":
     n1 = int(input("Enter first number: "))
     n2 = int(input("Enter second number: "))
     numBet(n1, n2)
+
+
+"""
+OUTPUT
+Enter first number: 100
+Enter second number: 500
+105 -- 120 -- 135 -- 150 -- 165 -- 180 -- 195 -- 210 -- 225 -- 240 -- 255 -- 270 -- 285 -- 300 -- 315 -- 330 -- 345 -- 360 -- 375 -- 390 -- 405 -- 420 -- 435 -- 450 -- 465 -- 480 -- 495 -- End of series
+"""

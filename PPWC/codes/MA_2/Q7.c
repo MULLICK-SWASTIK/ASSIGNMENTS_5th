@@ -32,6 +32,7 @@ int main(void)
         printf("Invalid mark!\n");
         break;
     }
+    return 0;
 }
 
 /*

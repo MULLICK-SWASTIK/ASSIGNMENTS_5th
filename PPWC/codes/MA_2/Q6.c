@@ -60,6 +60,7 @@ int main(void)
         day_number++;
     }
     printf("Day number: %d\n", day_number);
+    return 0;
 }
 
 /*

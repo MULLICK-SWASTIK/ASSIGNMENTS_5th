@@ -61,3 +61,9 @@ int main(void)
     }
     printf("Day number: %d\n", day_number);
 }
+
+/*
+OUTPUT
+Enter the date (DD MM YYYY): 8 6 2004
+Day number: 160
+ */

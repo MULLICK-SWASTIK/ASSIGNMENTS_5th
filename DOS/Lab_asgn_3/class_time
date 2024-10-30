@@ -1,0 +1,12 @@
+echo "Enter a day:"
+read day
+case $day in
+Monday)echo "The DOS class timing on $day is 3PM to 4PM at C-023";;
+Tuesday)echo "The DOS class timing on $day is 2PM to 3PM at C-023";;
+Wednesday)echo "No class on $day";;
+Thursday)echo "No class on $day";;
+Friday)echo "No class on $day";;
+Saturday)echo "The DOS class timing on $day is 12PM to 1PM at C-023";;
+Sunday)echo "Holiday";;
+*)echo "Invalid input";;
+esac
